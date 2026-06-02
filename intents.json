@@ -1,0 +1,71 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good Morning"],
+      "responses": [
+        "Hello Student!",
+        "Hi there!",
+        "Welcome to AI Student Assistant"
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye"],
+      "responses": [
+        "Goodbye!",
+        "Have a nice day!",
+        "See you again!"
+      ]
+    },
+
+    {
+      "tag": "course",
+      "patterns": [
+        "What courses are available?",
+        "Available courses",
+        "Course list"
+      ],
+      "responses": [
+        "Available courses are CSE, EEE, BBA and English.",
+        "Our university offers multiple programs including CSE and BBA."
+      ]
+    },
+
+    {
+      "tag": "admission",
+      "patterns": [
+        "How can I get admission?",
+        "Admission process",
+        "Admission information"
+      ],
+      "responses": [
+        "You can apply online through the university admission portal.",
+        "Admission requires SSC and HSC certificates."
+      ]
+    },
+
+    {
+      "tag": "programming",
+      "patterns": [
+        "What is Python?",
+        "Explain programming",
+        "What is AI?"
+      ],
+      "responses": [
+        "Python is a popular programming language.",
+        "Artificial Intelligence enables machines to simulate human intelligence."
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Nice"],
+      "responses": [
+        "You are welcome!",
+        "Happy to help!"
+      ]
+    }
+  ]
+}
